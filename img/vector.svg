@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="89.644px" height="87.29px" viewBox="0 0 89.644 87.29" enable-background="new 0 0 89.644 87.29" xml:space="preserve">
+    <!-- Define the clipping path -->
+    <defs>
+        <clipPath id="oblongClip">
+            <path fill-rule="evenodd" clip-rule="evenodd" fill="#010101" d="M47.159,87.29c-6.383-0.176-11.771-1.385-16.912-4.002
+            c-3.59-1.828-6.812-4.08-9.844-6.663c-7.371-6.28-12.647-14.137-16.661-22.831c-2.989-6.477-4.363-13.364-3.475-20.529
+            c0.712-5.745,2.938-10.849,7.286-14.812c3.536-3.225,7.659-5.573,12.066-7.394c7.494-3.097,15.152-5.755,22.852-8.29
+            c4.771-1.57,9.666-2.687,14.696-2.765c5.849-0.091,11.235,1.491,16.108,4.892c9.053,6.32,13.648,15.287,15.771,25.814
+            c1.499,7.435,0.074,14.415-3.099,21.167c-2.727,5.8-6.564,10.85-10.371,15.951c-3.088,4.138-6.561,7.892-10.311,11.39
+            c-3.213,2.998-6.854,5.357-11.096,6.797C51.639,86.875,49.11,87.303,47.159,87.29z"/>
+        </clipPath>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#ffffff"  clip-path="url(#oblongClip)"/> <!-- Change fill color as needed -->
+    
+    <!-- Use the clipping path for the image -->
+    <image id="img" xlink:href="profile.png" style="width: inherit;" clip-path="url(#oblongClip)" />
+</svg>
