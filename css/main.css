@@ -170,7 +170,7 @@ body {
 #title {
     padding-left: 1vw;
     font-family: Montserrat-ExtraBoldItalic;  
-    font-size: 3rem;
+    font-size: 2vw;
     font-weight: 400;
     text-transform: none;
 }
@@ -180,8 +180,8 @@ body {
 }
 
 @media (max-width: 980px) {
-    .hero {
-        background-color: green;
+    .titleDiv{
+        text-align: center;
     }
     .six.columns{
         width: -webkit-fill-available;
@@ -195,9 +195,37 @@ body {
     .heroRight{
         padding-top: 8vh;
         display: ruby;
+        padding-right: 0;
+        padding-top: 0;
     }
     .hero-heading{
         text-align: center;
+    }
+    .column, .columns {
+        width: 100% !important; 
+        float: left !important;
+        box-sizing: border-box !important;
+        margin-left: 0 !important;
+    }
+    #title {
+        font-size: 45px;
+    }
+    #navbar {
+        height: 12vh;
+        padding-bottom: 22em;
+    }
+    .hero {
+        padding-top: 0;
+    }
+    #footer {
+        height: 60vh;
+    }
+    #social {
+        padding-left: 0;
+    }
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
 }
