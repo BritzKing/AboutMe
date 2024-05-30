@@ -191,6 +191,7 @@ body {
         margin: auto;
         display: block;
         padding-top: 4vh;
+        padding-bottom: 2vh;
     }
     .heroRight{
         padding-top: 8vh;
@@ -212,7 +213,7 @@ body {
     }
     #navbar {
         height: 12vh;
-        padding-bottom: 22em;
+        padding-bottom: 26em;
     }
     .hero {
         padding-top: 0;
@@ -223,11 +224,13 @@ body {
     #social {
         padding-left: 0;
     }
-    body {
-        overflow-y: hidden;
-        overflow-x: hidden;
+    .hero{
+        height: 64vh;
     }
-
+    .six.columns{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
 
 .about-us {
